@@ -1,75 +1,55 @@
-head{
-
-}
-
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: lightgray;
     font-family: 'open sans', Verdana, sans-serif;
-    color:black;
+    color: black;
     text-align: center;
 }
-
-img{
-    min-width: 100%;
-    min-height: 100%;
-    background-image: url('images/photo-1542273917363-3b1817f69a2d.jpeg');
+img {
+    
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% auto; 
+    background-size: 100% auto;
 }
 
 .form__input {
     display: block;
 }
 
-/* header{
-    background-image: url('https://nrkbeta.no/wp-content/uploads/2022/10/Untitled-1-1450x667.jpg');
+
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: Black;
+    padding: 1rem 1.5rem;
+    border: 1rem solid green;
+    border-radius: 1rem;
+    margin: 2em;    
+}
+
+.header {
+    align-items: center;
+    position: relative;
+    background-image: url('../images/photo-1542273917363-3b1817f69a2d.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-} */
-
-h1{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color:Black;
-padding-top: 1rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
-  padding-left: 1.5rem;
-  border-style: solid;
-  border-color: green;
-  border-width: 1rem;
-  border-radius: 1em;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  margin-left: 2em;
 }
-
-
-.header{
-    align-items: center;
-    position: relative;
-
-}
-
-    
-
-.header-nav-bar {  
-    position: absolute;
+.header-nav-bar {
     margin: auto;
     width: 100%;
-    padding:5px;
-    
+    padding: 5px;
     color: black;
     bottom: 0%;
-    
-    color: white;
+}
+.header-nav-bar a {
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
@@ -78,7 +58,7 @@ a {
 }
 
 nav a {
-    color:black;
+    color: black;
     text-decoration: none;
     padding: 10px;
 }
@@ -93,14 +73,38 @@ nav ul {
 
 .active {
     background-color: black;
-    color: #FFF;
+    color: #fff;
 }
 
-main{
+.image {
+    max-height: 300px;
+    max-width: 150px;
+}
+.banner {
+    width: 100%;
+}
+.banner-image {
+    height: 200px;
+    width: 300px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.radio-buttons{
+    display: flex;
+    justify-content: center;
+}
+.radio{
+    padding: 0 1rem;
+    display: flex;
+    flex-flow: column-reverse;
+}
 
-
-footer::before, footer::after{
-Content: '/';
-color: #1f7e01;
-font-size: 30px;
+footer::before,
+footer::after {
+    color: #1f7e01;
+    font-size: 30px;
 }

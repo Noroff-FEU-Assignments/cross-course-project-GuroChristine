@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>My first website | Home</title>
-    <meta name="description" content="The home page to my first ever website." />
+    <meta name="desrciption" content="The home page to my first ever website." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/styles.css" rel="stylesheet">
   </head>
@@ -9,8 +9,7 @@
 
     <div class="header">
 
-      <img src="RainyDays_Logo.png" alt="Logo for My First Website" >
-      <img src="images/photo-1542273917363-3b1817f69a2d.jpg" alt="Background for My First Website"/>
+      <img src="./images/RainyDays_Logo.png" alt="Logo for My First Website" >
 
       <div class="header-nav-bar"> 
           <a href="index.html">Home</a>
@@ -34,18 +33,19 @@
         <p>
           im super awsome ! 
         </p>
+        <div class="banner">
+          <img class="banner-image" src="./images/hiking.jpeg" alt="Hiking">
+          <img class="banner-image" src="./images/Gettyimages-525336436-thumb.jpg" alt="Hiking in rain">
+        </div>
 
-        <img scr="hiking.jpeg" alt="Hiking">
-        <img scr="Gettyimages-525336436-thumb.jpg" alt="Hiking in rain">
 
-
-        <img scr="rainyDays_Jacket1.png" alt="first jacket">
-        <img scr="rainyDays_Jacket2.png" alt="second jacket">
-        <img scr="rainyDays_Jacket3.png" alt="third jacket">
-        <img scr="rainyDays_Jacket4.png" alt="forth jacket">
-        <img scr="rainyDays_Jacket5.png" alt="fifth jacket">
-        <img scr="rainyDays_Jacket6.png" alt="sixst jacket">
-        <img scr="rainyDays_Jacket7.png" alt="seventh jacket">
+        <img class="image" src="./images/RainyDays_Jacket1.png" alt="first jacket">
+        <img class="image" src="./images/RainyDays_Jacket2.png" alt="second jacket">
+        <img class="image" src="./images/RainyDays_Jacket3.png" alt="third jacket">
+        <img class="image" src="./images/RainyDays_Jacket4.png" alt="forth jacket">
+        <img class="image" src="./images/RainyDays_Jacket5.png" alt="fifth jacket">
+        <img class="image" src="./images/RainyDays_Jacket6.png" alt="sixst jacket">
+        <img class="image" src="./images/RainyDays_Jacket7.png" alt="seventh jacket">
 
   </div>
 
@@ -54,19 +54,29 @@
         <form action="form-sucess.php" method="POST">
           <fieldset>
             <legend>your details</legend>
-            <label for="name">Your name</label>
-            <input type="text" name="name" id="name" class="form__input" required>
-            <label for="phone">Your phone number</label>
-            <input type="tel" name="phone" id="phone" class="form__input">
-            <label for="email">Your email adress</label>
-            <input type="email" name="email" id="email" class="form__input" required>
+            <div class="fields">
+              <label for="name">Your name
+                <input type="text" name="name" id="name" class="form__input" required>
+              </label>
+              <label for="phone">Your phone number
+                <input type="tel" name="phone" id="phone" class="form__input">
+              </label>
+              <label for="email">Your email adress
+                <input type="email" name="email" id="email" class="form__input" required>
+              </label>
+            </div>
             <p>Select your gender</p>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="undisclosed" name="gender" value="undisclosed">
-            <label for="undisclosed">Undisclosed</label>
+            <div class="radio-buttons">
+              <label for="female" class="radio">Female 
+                <input type="radio" id="female" name="gender" value="female" />
+              </label>
+              <label for="male" class="radio">Male 
+                <input type="radio" id="male" name="gender" value="male" />
+              </label>
+              <label for="undisclosed" class="radio">Undisclosed
+                <input type="radio" id="undisclosed" name="gender" value="undisclosed" />
+              </label>
+            </div>
           </fieldset>
           <fieldset>
             <legend>Your purchase</legend>
