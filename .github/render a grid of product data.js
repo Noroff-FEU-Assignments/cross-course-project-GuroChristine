@@ -1,5 +1,5 @@
 new fridjs.Grid({
 
-    columns: []
+    columns:[]
 
     }.render(document.getElementByID())
