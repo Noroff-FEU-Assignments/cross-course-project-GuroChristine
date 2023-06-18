@@ -29,7 +29,7 @@ h1 {
 .header {
     align-items: center;
     position: relative;
-    background-image: url('../images/photo-1542273917363-3b1817f69a2d.jpg');
+    background-image: url('photo-1542273917363-3b1817f69a2d.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
