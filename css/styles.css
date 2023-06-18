@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: rgb(234, 234, 234);
     font-family: 'open sans', Verdana, sans-serif;
     color: black;
     text-align: center;
@@ -29,7 +29,7 @@ h1 {
 .header {
     align-items: center;
     position: relative;
-    background-image: url('photo-1542273917363-3b1817f69a2d.jpg');
+    background-image: url('https://images.photowall.com/products/58341/foggy-forest-4.jpg?h=699&q=85');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
