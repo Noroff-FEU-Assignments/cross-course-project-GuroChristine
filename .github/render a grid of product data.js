@@ -1,4 +1,4 @@
-new fridjs.Grid({
+new fridjs.Grid(){
 
     columns:[]
 
