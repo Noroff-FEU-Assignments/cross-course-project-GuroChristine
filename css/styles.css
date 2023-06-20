@@ -10,7 +10,7 @@ img {
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% auto;
+    background-size: 50% auto;
 }
 
 .form__input {
@@ -29,10 +29,10 @@ h1 {
 .header {
     align-items: center;
     position: relative;
-    background-image: url('https://images.photowall.com/products/58341/foggy-forest-4.jpg?h=699&q=85');
+    background-image: url('/images/photo-1542273917363-3b1817f69a2d.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
+    min-height: 50%;
 }
 .header-nav-bar {
     margin: auto;
@@ -42,7 +42,7 @@ h1 {
     bottom: 0%;
 }
 .header-nav-bar a {
-    padding: 0 5px;
+    padding: 0 5%;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -58,7 +58,7 @@ a {
 nav a {
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 10%;
 }
 
 nav a:hover {
@@ -66,24 +66,24 @@ nav a:hover {
 }
 
 nav ul {
-    padding: 0px;
+    padding: 0%;
 }
 
 .active {
     background-color: black;
-    color: #fff;
+    color: #ffffff;
 }
 
 .image {
-    max-height: 300px;
-    max-width: 150px;
+    max-height: 50%;
+    max-width: 50%;
 }
 .banner {
     width: 100%;
 }
 .banner-image {
-    height: 200px;
-    width: 300px;
+    height: 40%;
+    width: 40%;
 }
 .fields{
     display: flex;
@@ -101,8 +101,53 @@ nav ul {
     flex-flow: column-reverse;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16%;
+    font-size: 16%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160%;
+    box-shadow: 0% 8% 16% 0% rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12% 16%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
 footer::before,
 footer::after {
     color: #1f7e01;
-    font-size: 30px;
+    font-size: 30%;
 }
