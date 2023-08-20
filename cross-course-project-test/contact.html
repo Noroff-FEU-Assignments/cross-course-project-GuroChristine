@@ -1,0 +1,96 @@
+<html>
+   <head>
+     <meta name="sportswear clothing fit for any weather" content="The home page to my first ever website." />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link href="style.css" rel="stylesheet">
+     <link href="Javascript.js" rel="Javascript">
+   </head>
+   <body>
+
+     <div class="header">
+
+       <img src="./images/RainyDays_Logo.png" alt="Logo for My First Website" >
+
+       <section class="p-menu1">
+        <nav id="navbar" class="navigation" role="navigation">
+          <input id="toggle1" type="checkbox" />
+          <label class="hamburger1" for="toggle1">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+          </label>
+        
+          <nav class="menu1">
+            <a class="link1" href="index.html">Home</a>
+            <a class="link1" href="about.html">About</a>
+            <a class="link1" href="men.html">Men</a>
+            <a class="link1" href="women.html">Women</a>
+            <a class="link1" href="contact.html">Contact</a>
+            <a class="link1" href="checkout.html">Checkout</a>
+           
+          </nav>
+      </nav>
+      </section>   
+   </div>
+
+   <div class="main-content">
+
+   <div class="headline">
+       <section>
+         <h1>Contact info !</h1>
+         <p>
+           This is where you come in contact with us by filling in the required fields 
+         </p>
+         <div class="form">
+
+            <form action="form-sucess.php" method="POST">
+              <fieldset>
+                <legend>your details</legend>
+                <div class="fields">
+                  <label for="name">First name:
+                    <input type="text" name="name" id="name" class="form__input" required><br>
+                  </label>
+                  <label for="name">Last name:
+                    <input type="text" name="name" id="name" class="form__input" required><br>
+                  </label>
+                  <label for="name">Order number:
+                    <input type="text" name="name" id="name" class="form__input" required><br>
+                  </label>
+                  <label for="email">Email adress:
+                    <input type="email" name="email" id="email" class="form__input" required><br>
+                  </label>
+                  <label for="name">country:
+                    <input type="text" name="name" id="name" class="form__input" required><br>
+                  </label>
+                </div>
+                <p>Select gender</p>
+                <div class="radio-buttons">
+                  <label for="female" class="radio">Female
+                    <input type="radio" id="female" name="gender" value="female" /> <br>
+                  </label>
+                  <label for="male" class="radio">Male 
+                    <input type="radio" id="male" name="gender" value="male" /> <br>
+                  </label>
+                  <label for="undisclosed" class="radio">Undisclosed
+                    <input type="radio" id="undisclosed" name="gender" value="undisclosed" /><br>
+                  </label><br>
+                  <label for="name">Message:
+                    <input type="text" name="name" id="name" class="form__input" required>
+                  </label>
+                </div>
+                <button onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "We will be getting in touch with you soon and make sure you get a response as fast as possible,in the meantime feel free to brows our store, have a nice day !";
+}
+</script>
+
+                <div class="footer">
+                   </div>
+                </div>
+             
+                </body>
+              </html>
